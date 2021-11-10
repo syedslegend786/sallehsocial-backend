@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\salleh\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add socket.io
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\salleh\AppData\Local\Microsoft\WindowsApps;;C:\Users\salleh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\salleh\AppData\Roaming\npm;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.17.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\salleh\Desktop\mern projects\socialmediawebapp\server\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node'
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+      "dev": "nodemon --signal SIGKILL src/server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "bcrypt": "^5.0.1",
+      "cookie-parser": "^1.4.5",
+      "cors": "^2.8.5",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "express-validator": "^6.12.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^6.0.5"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.12"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
